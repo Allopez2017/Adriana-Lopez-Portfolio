@@ -1,0 +1,117 @@
+<html>
+   <head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Adriana Lopez Portfolio">
+  <meta name="keywords" content="HTML, CSS">
+  <meta name="author" content="Adriana Lopez">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" type="text/css" href="Style.css"/>
+   </head>
+
+<nav>
+<A href="#home">Home</A>
+<A href="#about">About Me</A>
+<A href="#work">My Work</A>
+<A href="#contact">Contact</A>
+</nav>
+
+<body>
+<div id="home">
+    <h1>Adriana Lopez</h1>
+<h2>Hello! Welcome to my portfolio page! </h2>
+<p>I am a Bootcamp Student & Aspiring Web Developer </p>
+</div>
+
+<h2>About Me</h2>
+<img id="me" src="me.jpg" alt="A picture of Adriana Lopez"/>
+<div id="about">
+    <p id="p2">
+    My name is Adriana Lopez and I am a {G}Code student and upcoming 
+    Website Developer. I have always had an interest in technology from a young age, often watching 
+    my mother play video games or trying to analyze and create my own blog structure on Tumblr. 
+    <br />
+    <br />
+    A future aspiration of mine, is to one day be able to make a video game collobratively with some
+    friends as we are all interested in producing interactive content and create art in our free time.
+    I believe learning with {G}Code will help me decide which career path works best for me, in addition to
+    assisting me with my own personal projects.
+    </p>
+</div>
+
+<br />
+<hr>
+
+<div id="projects">
+    <h2>Examples of My Work</h2>
+    <a href="https://codepen.io/Adriana-Lopez-the-looper/pen/BaEVajO"><img id="example1" src="Gcode Week1.jpg"/></a>
+    <a href="https://codepen.io/Adriana-Lopez-the-looper/pen/dyLQqoM"><img id="example2" src="Gcode Bistro.jpg"/></a>
+    <img id="example3" src="placeholder.png"
+</div>
+
+<div id="work">
+<br/>
+    <h3>Follow Me Here For More!</h3>
+    <a href="https://www.linkedin.com/in/adriana-lopez-511596149/"><ion-icon class="logo" name="logo-linkedin"></ion-icon></a>
+    <a href="https://github.com/Allopez2017"><ion-icon class="logo" name="logo-github"></ion-icon></a>
+    <a href="https://x.com/Adriana_Lopez30"><ion-icon class="logo" name="logo-twitter"></ion-icon></a>
+</div>
+<br />
+<hr>
+
+
+<div id="contact">
+  <h2>Send Me A Message!</h2>
+<section id="form">
+    <fieldset>
+      
+
+<label>Your Name:
+    
+<br />
+
+<input type="text" name="name" placeholder='Your First and Last Name'/></label>
+
+<br />
+
+<label>Your Email:
+    
+<br />
+
+<input type="email" name="email" placeholder='JohnSmith@gmail.com' /></label>
+
+<br />
+
+<label>Your Message:
+
+<br />  
+
+<textarea name="Message" cols="40" rows="6"></textarea>
+
+<br />
+<br />
+
+<input type="submit" value="Send Message" />
+
+</fieldset>
+</section>
+
+<br />
+
+<h5>Wanna Reach Me Directly? Contact Me Here!</h5>
+<p>
+ Adriana Lopez
+ <br/>
+ Email: Allopez2017@gmail.com
+ <br/>
+ Phone Number: (312)-586-6154 
+</p>
+<hr />
+</div>
+
+<footer>
+    <h2>Thanks For Visiting!</h2>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(200, 219, 247);
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(47, 6, 141);
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border: 2px solid
+}
+
+ion-icon {
+    font-size: 50px;
+    color:black
+}
+
+ion-icon:hover {
+color: white
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(247, 237, 250);
+    border: 3px solid;
+    padding: 20px;
+    width: 275px;
+    border-radius: 10px;
+    margin-bottom: 0;
+    display: inline-block;
+    
+}
+
+
+fieldset {
+    background-color: antiquewhite;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+label {
+    text-align: left;
+}
+
+hr {
+    width: 50%;
+    color: black;
+}
+
+a {
+   transition: background-color 0.2s ease-in-out,
+   color 0.2s ease-in-out;
+   color:rgb(153, 221, 229);
+   text-decoration: none;
+   }
+   a:hover, a:focus{
+   color: white;
+}
+
+#me { 
+    display: inline-block;
+    width: 110px; 
+    height: 110px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+    float:left;
+    
+}
+
+#home {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+#p1 {
+    text-align: center;
+    background-color: aqua;
+    border: 3px solid;
+    padding: 5px;
+    width: 325px;
+    border-radius: 10px ;
+    margin-top: 0;
+    display: inline-block;
+    position: relative;
+}
+
+#p2 {
+ text-align: left;
+}
+
+#about {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+background-color: antiquewhite;
+padding-left: 10;
+}
+
+#projects{
+  display: inline-block;
+
+}
+
+#example1, #example2, #example3 {
+    width: 50%;
+    display: grid;
+}
+
+
+
+
